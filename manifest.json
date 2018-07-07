@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "DNS Flush",
+  "description": "一键清除chrome的DNS缓存, 并刷新当前选项卡。 web开发的利器。",
+  "version": "0.2",
+  "author": "yutent",
+  "icons": {
+    "64": "icon64.png",
+    "128": "icon128.png",
+    "256": "icon256.png"
+  },
+  "background": {
+      "scripts": [ "background.js" ]
+   },
+  "browser_action": {
+    "default_icon": "icon64.png"
+  },
+  "permissions": [
+    "tabs",
+    "*://*/*"
+  ],
+  "homepage_url": "https://doui.cc"
+}
