@@ -12,7 +12,8 @@
 > 授权方法:
 >> 1. 打开 `chrome://flags/`
 >> 2. 找到 `chrome:// URLs`, 并将其设置为`Enabled`
->> **快速导航地址: ** [授权设置地址](chrome://flags/#extensions-on-chrome-urls)
+
+**快速导航地址: ** [授权设置地址](chrome://flags/#extensions-on-chrome-urls)
 
 
 #### 2018/07/07 - v0.2.0
