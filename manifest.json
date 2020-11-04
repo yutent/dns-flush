@@ -1,9 +1,8 @@
 {
   "manifest_version": 2,
-
-  "name": "DNS Flush",
-  "description": "一键清除chrome的DNS缓存, 并刷新当前选项卡。 web开发的利器。",
-  "version": "0.3",
+  "name": "dns-killer",
+  "description": "DNS缓存杀手,一键清除chrome的DNS缓存, 并刷新当前选项卡。 web开发的利器。",
+  "version": "1.0.0",
   "author": "yutent",
   "icons": {
     "64": "icon64.png",
@@ -11,15 +10,11 @@
     "256": "icon256.png"
   },
   "background": {
-      "scripts": [ "background.js" ]
-   },
+    "scripts": ["background.js"]
+  },
   "browser_action": {
     "default_icon": "icon64.png"
   },
-  "permissions": [
-    "tabs",
-    "chrome://net-internals/#dns",
-    "*://*/*"
-  ],
-  "homepage_url": "https://doui.cc"
+  "permissions": ["tabs", "chrome://net-internals/#dns", "*://*/*"],
+  "homepage_url": "https://yutent.me"
 }
