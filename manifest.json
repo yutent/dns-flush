@@ -15,6 +15,10 @@
   "browser_action": {
     "default_icon": "icon64.png"
   },
-  "permissions": ["tabs", "chrome://net-internals/#dns"],
-  "homepage_url": "https://yutent.me"
+  "permissions": [
+    "tabs",
+    "chrome://net-internals/#dns",
+    "chrome://extensions/"
+  ],
+  "homepage_url": "https://yutent.top"
 }
